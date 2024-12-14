@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="file"] {
+  font-size: 14px;
+  padding: 5px;
+  margin: 10px;
+}
+
+img {
+  max-width: 400px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+
+
+.container {
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+}
+
+.header {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.uploadSection {
+  margin-bottom: 20px;
+}
+
+.fileInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.imageContainer {
+  margin-bottom: 20px;
+}
+
+.imageTitle {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.image {
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.canvasContainer {
+  margin-top: 20px;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.brushControls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconButton {
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.brushSizeText {
+  font-size: 16px;
+  color: #333;
+}
+
+.colorPicker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actionButtons {
+  margin-top: 20px;
+}
+
+.actionButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.resultContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
