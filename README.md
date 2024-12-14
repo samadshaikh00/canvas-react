@@ -12,10 +12,6 @@ A simple React-based image inpainting widget that allows users to upload an imag
 - **Clear the Canvas**: Clear the drawn mask to start a new drawing.
 - **Responsive UI**: The app adjusts to fit the uploaded image and provides a smooth, intuitive user experience.
 
-## Preview
-
-![Preview](./public/images/preview.jpg)  
-
 ## Installation
 
 Follow these steps to get the project up and running:
